@@ -49,6 +49,10 @@ body {
     margin-right: 10px; /* Adjust the spacing between links as needed */
 }
 
+.navbar ul a:hover {
+    color: #FCBF24;
+}
+
 /* Style for individual list items */
 .navbar li {
     padding:25px;
@@ -173,9 +177,7 @@ footer img{
 
     animation: rotate 40s linear infinite;
 }   
-img .hands{
-    width : auto ;  
-}
+
 
 .cta1 {
     position: relative;
@@ -290,4 +292,10 @@ img .hands{
    
    .cta2:active {
     transform: scale(0.95);
+   }
+   .hands{
+    width: 22%;
+    left: 63%;
+    top: 15%;
+    position: absolute;
    }
